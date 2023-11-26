@@ -6,7 +6,7 @@ services:
       dockerfile: ./container/Dockerfile
     volumes:
       - type: bind
-        source: ./src
+        source: ../static-php-cli
         target: /workspace
     working_dir: /workspace
     tty: true
